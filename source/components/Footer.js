@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import links from '../theme/assets/links';
-import Link from './Link';
+import FooterLink from './FooterLink';
 
 export default class Footer extends Component {
     render() {
         const linksJSX = links.map((element) => {
-            return <Link key = { element.id } message = { element.message }/>;
+            return <FooterLink key = { element.id } message = { element.message }/>;
         });
         
         return (
