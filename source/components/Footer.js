@@ -13,6 +13,7 @@ export default class Footer extends Component {
                 <ul>
                     {linksJSX}
                 </ul>
+                <span>(c) 2018 instagram</span>
             </div>
         );
     }
